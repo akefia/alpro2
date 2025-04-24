@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.kuliah;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author USER
+ */
+public class Kuliah {
+    public static void main(String[] args) {
+    System.out.println("Hello world");
+    Scanner s = new Scanner(System.in);
+    System.out.print("Masukkan Nilai a: ");
+    int a = s.nextInt();
+    if (a % 2 == 0)
+    {
+        System.out.println(a+" adalah bilangan Genap");
+    }
+    else {
+        System.out.println(a+" adalah bilangan Ganjil");
+    }
+    }
+}
