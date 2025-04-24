@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.kuliah;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author USER
+ */
+public class Kuliah {
+    public static void main(String[] args) {
+    System.out.println("Hello world");
+    Scanner s = new Scanner(System.in);
+    System.out.println("Ini program Penjumlahan");
+    System.out.print("Masukkan Nilai a: ");
+    int a = s.nextInt();
+    System.out.print("Masukkan Nilai b; ");
+    int b = s.nextInt();
+    int hasil = a+b;
+    System.out.print(a+"+"+b+"="+hasil);
+    
+    }
+}
