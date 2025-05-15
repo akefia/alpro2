@@ -13,6 +13,12 @@ public class Studycase {
 public static void main(String[] args) {
 
         int [] arr = {1,2,3,4,6,7,8};
+        int hilang =nomorHilang(arr);
+        if (hilang == -1){
+        System.out.println("Tidak ada angka yang hilang");
+    }else{
+        System.out.println("Nomor yang hilang adalah" + hilang);
+        }
         System.out.println(nomorHilang(arr));
     }
 
